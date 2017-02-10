@@ -27,3 +27,17 @@ body {
   display: block;
   width: 100%;
 }
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+header {
+  background-color: #e2e2e2;
+  color: #fff;
+}
