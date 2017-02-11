@@ -23,18 +23,19 @@ body {
   margin: 0;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
+nav a:hover {
+  background-color: #0074d9;
 }
 
-a {
+nav a {
   list-style-type: none;
   text-decoration: none;
 }
 
-nav ul {
+ul li {
   display: inline-block;
+  color: #fff;
+  text-align: center;
 }
 
 header {
