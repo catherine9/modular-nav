@@ -21,24 +21,50 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
-nav a:hover {
-  background-color: #0074d9;
+.section-light {
+  background-color: #e2e2e2;
 }
 
-nav a {
-  list-style-type: none;
-  text-decoration: none;
+a {
+  color: #0074d9;
 }
 
-ul li {
-  display: inline-block;
-  color: #fff;
+.masthead {
   text-align: center;
 }
 
-header {
-  background-color: #e2e2e2;
-  color: #fff;
+.nav {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 25em) {
+
+    .nav li {
+      display: inline-block;
+    }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+    .masthead {
+      text-align: left;
+    }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
 }
