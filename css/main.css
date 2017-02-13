@@ -47,20 +47,16 @@ a {
   text-decoration: none;
 }
 
- h1 {
-   color: #fff;
- }
-
- a:hover {
-   background-color: #0074d9;
-   color: #fff;
- }
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
 
 @media only screen and (min-width: 25em) {
 
   .nav li {
     display: inline-block;
-    }
+  }
 
 }
 
@@ -68,6 +64,6 @@ a {
 
   .masthead {
     text-align: left;
-    }
+  }
 
 }
